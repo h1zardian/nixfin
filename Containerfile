@@ -5,7 +5,7 @@
 FROM scratch AS ctx
 COPY / /
 
-FROM ghcr.io/ublue-os/ublue-os/bluefin-dx:stable-daily
+FROM ghcr.io/ublue-os/bluefin-dx:stable-daily
 
 
 
