@@ -45,3 +45,5 @@ INCLUDE_PACKAGES=(
     mesa-va-drivers-freeworld
     mesa-vdpau-drivers-freeworld
 )
+
+dnf5 install --setopt=install_weak_deps=False -y "${INCLUDE_PACKAGES[@]}"
